@@ -6,7 +6,9 @@ sysctl-file: /proc/sys/net/ipv4/ip_forward
 sysctl-variable: net.ipv4.ip_forward
 source: https://www.kernel.org/doc/Documentation/networking/ip-sysctl.txt
 ---
+
 0 - disabled (default)
+
 not 0 - enabled
 
 Forward Packets between interfaces.
